@@ -292,16 +292,17 @@ namespace InterfaceDemo
 
     class Guitar : IPlayable
     {
-        public void Play() => Console.WriteLine("Guitar strums: 🎸");
+        public void Play() => Console.WriteLine("Guitar strums: rock");
     }
 
     class Piano : IPlayable
     {
-        public void Play() => Console.WriteLine("Piano keys: 🎹");
+        public void Play() => Console.WriteLine("Piano keys: beatiful music");
     }
 
     class Drum : IPlayable
     {
-        public void Play() => Console.WriteLine("Drum beats: 🥁");
+        public void Play() => Console.WriteLine("Drum beats: bum bum bum");
     }
 }
+    
